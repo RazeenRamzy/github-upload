@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NovelsActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="108dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/shorts1book" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="252dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            android:text="These stories are like a long dream of many parts, mixed desire, love, longing, anger—Obejas is a master of the human, able to conjure her characters’ heartbeats right under your fingertips, their breaths in your ears."
+            android:textAlignment="gravity"
+            android:textSize="15sp"
+
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="385dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:background="#40D3D2D2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="108dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3"
+            app:srcCompat="@drawable/shorts2book" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="254dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="The key to a house, the key to a heart, the key to a secret—Oyeyemi’s keys not only unlock elements of her characters’ lives, they promise further labyrinths on the other side. In “Books and Roses” one special key opens a library, a garden, and clues to at least two lovers’ fates."
+            android:textAlignment="gravity"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="385dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:background="#40D3D2D2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="108dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="184dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3"
+            app:srcCompat="@drawable/shorts3book" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="252dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="200dp"
+            android:text="This edition of Chekhov’s short story, The Lady with the Dog, is specially formatted with a Table of Contents and is illustrated with over a dozen pictures of Chekhov"
+            android:textAlignment="gravity"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="385dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="184dp"
+            android:background="#40D3D2D2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="108dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="364dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3"
+            app:srcCompat="@drawable/shorts4boolk" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="252dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="380dp"
+            android:text="A rich, moving, sweeping novel about a family forced to escape Krakow during the Holocaust When Alicia and her family are forced to flee Krakow to escape the Nazis, they leave behind all their possessions, including Alicia’s most prized object – the portrait her father commissioned of her."
+            android:textAlignment="gravity"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="385dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="364dp"
+            android:background="#40D3D2D2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="108dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="540dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3"
+            app:srcCompat="@drawable/shorts5book" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="252dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="556dp"
+            android:text="The imaginative tales in MANNEQUIN AND WIFE trip seamlessly across borderlands, navigating comedy and tragedy, psychological and magical realism, the mundane and the marvelous. A criminal mastermind's protégé plots the destruction of Mount Rushmore from within an extinct volcano."
+            android:textAlignment="gravity"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="385dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="544dp"
+            android:background="#40D3D2D2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

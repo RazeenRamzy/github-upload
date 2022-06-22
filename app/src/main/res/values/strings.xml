@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LibraryApp</string>
+
+    <string name="facebook_app_id">1264435640743396</string>
+    <string name="fb_login_protocol_scheme">fb1264435640743396</string>
+    <string name="title_activity_gmaps">GMapsActivity</string>
+
+
+
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NovelsActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="108dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/novel1" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="252dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            android:text="Queen Victoria remains one of the greatest figures in British history, not simply because of the tremendous position which she occupied for so long, but because she was in so many ways herself an extraordinary character."
+            android:textAlignment="gravity"
+            android:textSize="15sp"
+
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="385dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:background="#40D3D2D2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="108dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3"
+            app:srcCompat="@drawable/novel2" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="252dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="Princess Winter is admired for her grace, kindness and beauty, despite the scars on her face. When Winter develops feelings for the handsome palace guard, Jacin, she fears the evil Queen will crush their romance before it has a chance to begin."
+            android:textAlignment="gravity"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="385dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:background="#40D3D2D2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="108dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="184dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3"
+            app:srcCompat="@drawable/novel3" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="254dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="200dp"
+            android:text="Jim Marlow and his strange-looking Martian friend Willis were allowed to travel only so far. But one day Willis unwittingly tuned into a treacherous plot that threatened all the colonists on Mars, and it set Jim off on a terrfying adventure that could save--or destroy--them all!"
+            android:textAlignment="gravity"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="385dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="184dp"
+            android:background="#40D3D2D2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="108dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="364dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3"
+            app:srcCompat="@drawable/novel4" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="252dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="380dp"
+            android:text="In this evocative first novel, a young woman returns to her rural Vermont hometown in the wake of a devastating storm to search for her missing mother and unravel a powerful family secret"
+            android:textAlignment="gravity"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="385dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="364dp"
+            android:background="#40D3D2D2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="108dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="540dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3"
+            app:srcCompat="@drawable/novel6" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="252dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="556dp"
+            android:text="Invisible Man is one of those rare novels that have changed the shape of American literature. For not only does Ralph Ellison's nightmare journey across the racial divide tell unparalleled truths about the nature of bigotry and its effects on the minds of both victims and perpetrators, it gives us an entirely new model of what a novel can be."
+            android:textAlignment="gravity"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="385dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="544dp"
+            android:background="#40D3D2D2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
